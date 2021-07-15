@@ -24,12 +24,17 @@ h1 {
 }
 
 button {
-  border-radius: 12px;
+  border-radius: 24px;
+  background-color: hotpink;
+  width: 200px;
+  height: 50px;
+  margin: 30px 100px;
 }
 
 .footer {
-  position: relative;
-  top: 250px;
+  position: absolute;
+  left: 450px;
+  top: 475px;
   font-size: 10px;
   color: white;
 }
