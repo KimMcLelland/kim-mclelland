@@ -1,9 +1,39 @@
+
+
 .App {
   text-align: center;
+  background-image: url("images/jake-weirick-Q_RBVFFXR_g-unsplash.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+h1 {
+  color: darkorchid;
+}
+
+.intro {
+  color: white;
+}
+
+button {
+  border-radius: 12px;
+}
+
+.footer {
+  position: relative;
+  top: 250px;
+  font-size: 10px;
+  color: white;
+}
+
+.footer a {
+  color: hotpink;
 }
