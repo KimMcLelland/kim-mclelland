@@ -8,6 +8,7 @@ const App = () => {
     if (page === 0) {
       return(
         <div className="start_page_buttons">
+          <p>What do you want to know about me?</p>
           <button onClick={() => setPage(page+1)}>Education</button>
           <button onClick={() => setPage(page+2)}>Creativity</button>
           <button onClick={() => setPage(page+3)}>Spirituality</button>
@@ -18,7 +19,18 @@ const App = () => {
     if (page === 1) {
       return (
         <div className = "education_page">
-        <p>This is my education</p>
+        <p>I have the following qualifications:</p>
+        <ul>
+          <li>MA Multimedia Journalism</li>
+          <li>BA History and Philosophy</li>
+          <li>Coding Masters course with Code Nation</li>
+          <li>BTec National Diploma Mutlimedia Design</li>
+          <li>English Lit and General Studies A Levels</li>
+          <li>Maths, Science, English, History, Music and French GCSEs</li>
+        </ul>
+        <p>Studying philosophy taught me logic and analytical thinking.  
+          Studying Multimedia Journalism taught me html and css as well as 
+          how to manipulate images and video.</p>
         <button onClick={() => setPage(page-1)}>back to main page</button>
         </div>
       )
@@ -55,7 +67,6 @@ const App = () => {
       <div className="intro">
         <p>This is a promotional web app, showcasing my skills</p>
         <p>with JS React and also providing information about me.</p>
-        <p>What do you want to know about me?</p>
       </div>
       <div>
         {pageDisplay()}

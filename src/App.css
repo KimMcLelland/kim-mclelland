@@ -3,7 +3,7 @@
 .App {
   text-align: center;
   background-image: url("images/jake-weirick-Q_RBVFFXR_g-unsplash.jpg");
-  height: 500px;
+  height: 550px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,7 +34,7 @@ button {
 .footer {
   position: absolute;
   left: 450px;
-  top: 475px;
+  bottom: 25px;
   font-size: 10px;
   color: white;
 }
@@ -43,18 +43,20 @@ button {
   color: hotpink;
 }
 
-.education_page {
+p {
   color: white;
 }
 
-.creativity_page {
+li {
   color: white;
+  text-align: left;
+  position: relative;
+  left: 40%;
 }
 
-.spirituality_page {
-  color: white;
-}
+.education_page p {
+  width: 50%;
+  position: relative;
+  left: 25%;
 
-.lgbt_page {
-  color: white;
 }
