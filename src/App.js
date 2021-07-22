@@ -39,6 +39,11 @@ const App = () => {
       return(
         <div className = "creativity_page">
           <p>These are my creative achievements</p>
+          <button onClick={() => setPage(page+3)}>My writing</button>
+          <button onClick={() => setPage(page+4)}>My music</button>
+          <button onClick={() => setPage(page+5)}>My videos</button>
+          <button onClick={() => setPage(page+6)}>My coding</button>
+          <button onClick={() => setPage(page+7)}>My game design</button>
           <button onClick={() => setPage(page-2)}>back to main page</button>
           </div>
       )
@@ -129,6 +134,51 @@ const App = () => {
             of the relationship you have with that person is what really matters.
           </p>
           <button onClick={() => setPage(page-4)}>back to main page</button>
+        </div>
+      )
+    }
+    if (page === 5) {
+      return (
+        <div className="writing_page">
+          <p>My writing</p>
+          <button onClick={() => setPage(page-3)}>back to creativity</button>
+          <button onClick={() => setPage(page-5)}>back to main page</button>
+        </div>
+      )
+    }
+    if (page === 6) {
+      return (
+        <div className="music_page">
+          <p>My music</p>
+          <button onClick={() => setPage(page-4)}>back to creativity</button>
+          <button onClick={() => setPage(page-6)}>back to main page</button>
+        </div>
+      )
+    }
+    if (page === 7) {
+      return (
+        <div className="video_page">
+          <p>My videos</p>
+          <button onClick={() => setPage(page-5)}>back to creativity</button>
+          <button onClick={() => setPage(page-7)}>back to main page</button>
+        </div>
+      )
+    }
+    if (page === 8) {
+      return (
+        <div className="coding_page">
+          <p>My github</p>
+          <button onClick={() => setPage(page-6)}>back to creativity</button>
+          <button onClick={() => setPage(page-8)}>back to main page</button>
+        </div>
+      )
+    }
+    if (page === 9) {
+      return (
+        <div className="writing_page">
+          <p>My game design</p>
+          <button onClick={() => setPage(page-7)}>back to creativity</button>
+          <button onClick={() => setPage(page-9)}>back to main page</button>
         </div>
       )
     }
