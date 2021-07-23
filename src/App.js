@@ -37,7 +37,7 @@ const App = () => {
     }
     if (page === 2) {
       return(
-        <div className = "creativity_page">
+        <div>
           <p>These are my creative achievements</p>
           <button onClick={() => setPage(page+3)}>My writing</button>
           <button onClick={() => setPage(page+4)}>My music</button>
@@ -139,46 +139,73 @@ const App = () => {
     }
     if (page === 5) {
       return (
-        <div className="writing_page">
-          <p>My writing</p>
-          <button onClick={() => setPage(page-3)}>back to creativity</button>
-          <button onClick={() => setPage(page-5)}>back to main page</button>
+        <div className="creativity_pages">
+          <h2>My writing</h2>
+          <p>I write fantasy and science fiction stories.</p>
+          <p>I self-publish on Amazon:</p>
+          <a href="https://www.amazon.co.uk/Kim-McLelland/e/B084FGQVS3" target ="_blank">Check out my work here</a>
+          <br />
+          <div className="buttons">
+            <button onClick={() => setPage(page-3)}>back to creativity</button>
+            <button onClick={() => setPage(page-5)}>back to main page</button>
+          </div>
         </div>
       )
     }
     if (page === 6) {
       return (
-        <div className="music_page">
-          <p>My music</p>
-          <button onClick={() => setPage(page-4)}>back to creativity</button>
-          <button onClick={() => setPage(page-6)}>back to main page</button>
+        <div className="creativity_pages">
+          <h2>My music</h2>
+          <p>I have also written songs on my guitar and keyboard.</p>
+          <a href="https://soundcloud.com/user-695633336" target ="_blank">check out my soundcloud</a>
+          <br />
+          <div className="buttons">
+            <button onClick={() => setPage(page-4)}>back to creativity</button>
+            <button onClick={() => setPage(page-6)}>back to main page</button>
+          </div>
         </div>
       )
     }
     if (page === 7) {
       return (
-        <div className="video_page">
-          <p>My videos</p>
-          <button onClick={() => setPage(page-5)}>back to creativity</button>
-          <button onClick={() => setPage(page-7)}>back to main page</button>
+        <div className="creativity_pages">
+          <h2>My videos</h2>
+          <p>I have a youtube channel:</p>
+          <a href="https://www.youtube.com/channel/UC99jri8yyuD4yVRnFiJqdRQ" target ="_blank">FaerieKim's youtube channel</a>
+          <br />
+          <div className="buttons">
+            <button onClick={() => setPage(page-5)}>back to creativity</button>
+            <button onClick={() => setPage(page-7)}>back to main page</button>
+          </div>
         </div>
       )
     }
     if (page === 8) {
       return (
-        <div className="coding_page">
-          <p>My github</p>
-          <button onClick={() => setPage(page-6)}>back to creativity</button>
-          <button onClick={() => setPage(page-8)}>back to main page</button>
+        <div className="creativity_pages">
+          <h2>Coding</h2>
+          <p>I love coding.  At the moment I prefer front end but I have also learnt back end.</p>
+          <p>I have experience with JavaScript, Python and CSS.</p>
+          <a href="https://github.com/KimMcLelland" target ="_blank">My github</a>
+          <br />
+          <div className="buttons">
+            <button onClick={() => setPage(page-6)}>back to creativity</button>
+            <button onClick={() => setPage(page-8)}>back to main page</button>
+          </div>
         </div>
       )
     }
     if (page === 9) {
       return (
-        <div className="writing_page">
+        <div className="creativity_pages">
           <p>My game design</p>
-          <button onClick={() => setPage(page-7)}>back to creativity</button>
-          <button onClick={() => setPage(page-9)}>back to main page</button>
+          <p>I love designing games.  I use Godot.</p>
+          <p>Recently, during a gamejam, I teamed up with a lady called Thabai</p>
+          <p>Together we made a game called Wizzapp.</p>
+          <div className="buttons">
+            <button onClick={() => setPage(page-7)}>back to creativity</button>
+            <button onClick={() => setPage(page-9)}>back to main page</button>
+          </div>
         </div>
       )
     }
