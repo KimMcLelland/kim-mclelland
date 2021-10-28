@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kim-mclelland/static/css/main.dcc35707.chunk.css",
+    "main.js": "/kim-mclelland/static/js/main.3ac8f883.chunk.js",
+    "main.js.map": "/kim-mclelland/static/js/main.3ac8f883.chunk.js.map",
+    "runtime-main.js": "/kim-mclelland/static/js/runtime-main.57c29a2e.js",
+    "runtime-main.js.map": "/kim-mclelland/static/js/runtime-main.57c29a2e.js.map",
+    "static/js/2.df773e74.chunk.js": "/kim-mclelland/static/js/2.df773e74.chunk.js",
+    "static/js/2.df773e74.chunk.js.map": "/kim-mclelland/static/js/2.df773e74.chunk.js.map",
+    "static/js/3.15fede5e.chunk.js": "/kim-mclelland/static/js/3.15fede5e.chunk.js",
+    "static/js/3.15fede5e.chunk.js.map": "/kim-mclelland/static/js/3.15fede5e.chunk.js.map",
+    "index.html": "/kim-mclelland/index.html",
+    "static/css/main.dcc35707.chunk.css.map": "/kim-mclelland/static/css/main.dcc35707.chunk.css.map",
+    "static/js/2.df773e74.chunk.js.LICENSE.txt": "/kim-mclelland/static/js/2.df773e74.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/kim-mclelland/static/media/jake-weirick-Q_RBVFFXR_g-unsplash.a6ab7faa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57c29a2e.js",
+    "static/js/2.df773e74.chunk.js",
+    "static/css/main.dcc35707.chunk.css",
+    "static/js/main.3ac8f883.chunk.js"
+  ]
+}
